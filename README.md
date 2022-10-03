@@ -1,1 +1,1 @@
-# Smart-Attendance-Management-System(SAMS)
+# Smart-Attendance-Management-System(SAM)
