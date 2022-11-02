@@ -1,0 +1,235 @@
+
+* {
+	box-sizing: border-box;
+}
+@font-face {
+  font-family: 'GestaReFogular';
+  src: url('gestareg-webfont.eot');
+  src: local('☺'),
+       url('gestareg-webfont.woff') format('woff'),
+       url('gestareg-webfont.ttf') format('truetype'),
+       url('gestareg-webfont.svg#webfontg8dbVmxj') format('svg');
+}
+
+body {
+	background: #f6f5f7;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin: -20px 0 0;
+
+}
+.body{
+	padding-top: 2rem;
+	padding-left: 3rem;
+	padding-right:2rem;
+	padding-bottom: 2rem;
+}
+.navb{
+  display: inline-block;
+  width: 100%;
+  color: white;
+}
+
+h1 {
+	font-weight: 400;
+	margin: 0;
+	padding-left: 17%;
+	padding-top: 5rem;
+}
+
+h2 {
+	text-align: center;
+}
+h6{
+	text-align: left;
+	font-weight: 400;
+	font-size: 22px;
+}
+p {
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+
+span {
+	font-size: 14px;
+}
+
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+.navbar{
+	   box-shadow: 0 8px 4px -2px rgba(0,0,0,.2);
+}
+.navbar-brand{
+	background-color: #FF416C;
+	font-family: 'GestaRegular', Arial, Helvetica, sans-serif;
+	align-items: center;
+	padding-left: auto;
+	padding-right: auto;
+	height: 4rem;
+	width: 17%;
+  color: black;
+	font-weight: bold;
+}
+
+.navbar-brand .active{
+  color: black;
+}
+.nav-link{
+  color: black;
+	font-weight: 500;
+}
+.navbar-brand:hover{
+  color: black;
+}
+.navbar-brand::after{
+  color: black;
+}
+.nav-link:hover{
+  color: black;
+
+}
+
+button {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+select{
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+/* Modify the background color */
+.navbar-custom {
+	background-color: #353536;
+}
+/* Modify brand and text color */
+.navbar-custom .navbar-item,
+.navbar-custom .navbar-text {
+	color: green;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #2d2d2e;
+}
+.nav-pills .nav-link{
+	transition: all .3s;
+}
+.nav-pills .nav-link:hover, .nav-tabs .nav-link:focus {
+  border-color: #e9ecef #e9ecef #dee2e6;
+	background-color: #2d2d2e;
+  isolation: isolate;
+}
+
+.class{
+	height: 100px;
+	width: auto;
+	background-color: #fff;
+	border-radius: 25px;
+	margin-left: 19%;
+	margin-right: 2%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-style: solid;
+  transition: all .3s;
+  border-width: 4px 4px 4px 12px;
+}
+.class:hover{
+	height: 110px;
+	width: auto;
+	margin-left: 18%;
+	margin-right: 1%;
+}
+
+.class1{
+	border-color: #adb897;
+}
+.class1:hover{
+	box-shadow: 10px 5px 5px #8d967b;
+}
+.class2{
+	border-color: #bcd4d6;
+}
+.class2:hover{
+	box-shadow: 10px 5px 5px #8d9fa1;
+}
+.class3{
+	border-color: #db8884;
+}
+.class3:hover{
+	box-shadow: 10px 5px 5px #8f5754;
+}
+.class4{
+	border-color: #9c83cc;
+}
+.class4:hover{
+	box-shadow: 10px 5px 5px #615280;
+}
+.div1{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	height: inherit;
+	padding-left: 3%;
+	float: left;
+	width: 40%;
+}
+.div2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: inherit;
+	float: left;
+	width: 20%;
+}
+.div3{
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	height: inherit;
+	padding-right: 3%;
+	float: left;
+	width: 40%;
+}
