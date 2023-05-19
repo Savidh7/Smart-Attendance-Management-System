@@ -58,7 +58,7 @@ def Model_Training():
     y_data=[]
 
     learning_rate=0.01
-    epochs=100
+    epochs=300
     batch_size=16
 
     people=sorted(os.listdir('people'))
